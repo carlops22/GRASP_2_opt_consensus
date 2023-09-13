@@ -7,18 +7,16 @@
 class GreedyRandomHeuristic{
     private:
         std::vector<std::string> input_strings;
-        int heuristic_cost;
         std::string consensus_sequence;
         double alpha;
-        int maxIterations;
         GreedyHeuristic greedy;
     public:
-        GreedyRandomHeuristic(std::vector<std::string>&, double&, int&);
+        GreedyRandomHeuristic(std::vector<std::string>&, double&);
         char getRandomCharacter();
-        void greedyRandomStep(GreedyHeuristic&, double);
-        void greedyRandomAlgorithm(GreedyHeuristic&, int, double);
+        void greedyRandom();
+        void greedyRandomAlgorithm();
         int getHeuristicCost();
-        string getConsensusSequence();
+        std::string getConsensusSequence();
 };
 
 

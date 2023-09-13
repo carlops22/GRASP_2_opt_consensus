@@ -27,8 +27,7 @@ int main(int argc, char* argv[]) {
     double execution_time = std::chrono::duration<double>(end_time - start_time).count();
 
     cout <<"Heuristic cost: " << greedy.get_heuristic_cost() <<endl;
-    cout << "Tiempo usado: " << execution_time << " segundos" << endl;
-
+    cout << "Tiempo de ejecucion: " << execution_time*1000 << " milisegundos" << endl;
     return 0;
 }
 

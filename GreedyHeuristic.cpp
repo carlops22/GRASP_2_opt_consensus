@@ -6,7 +6,7 @@ using namespace std;
 
 GreedyHeuristic::GreedyHeuristic(vector<string>& input){
     input_strings=input; 
-    heuristic_cost=-1;
+    heuristic_cost=INT_MAX;
     consensus_sequence="";
 };
 int GreedyHeuristic :: get_heuristic_cost(){
@@ -58,7 +58,7 @@ void GreedyHeuristic::find_consensus() {
 
     for (int i = 0; i < sequenceLength; ++i) {
         char bestCharacter = input_strings[0][i];
-        int bestScore = INT_MAX;
+        int bestScore = heuristic_cost;
 
         for (char candidateChar : "ATCG") {
             int currentScore = 0;
@@ -71,13 +71,13 @@ void GreedyHeuristic::find_consensus() {
             if (currentScore < bestScore) {
                 bestScore = currentScore;
                 bestCharacter = candidateChar;
+                heuristic_cost = bestScore;
             }
         }
 
         bestMotif[i] = bestCharacter;
     }
-    //costo total de la secuencia armada
-    heuristic_cost = sumSquaredHammingDistances(bestMotif, input_strings);
+    //secuencia obtenida
     consensus_sequence = bestMotif;
 };
 
