@@ -53,5 +53,5 @@ stdDevExecutionTime=$(bc -l <<< "scale=2; sqrt($stdDevExecutionTime / ${#executi
 # Resultados, como es deterministico no es necesario una tabla para graficar
 echo "Average Heuristic Cost: $averageHeuristicCost"
 echo "Standard Deviation Heuristic Cost: $stdDevHeuristicCost"
-echo "Average Execution Time (seconds): $averageExecutionTime"
-echo "Standard Deviation Execution Time (seconds): $stdDevExecutionTime"
+echo "Average Execution Time (milliseconds): $averageExecutionTime"
+echo "Standard Deviation Execution Time (milliseconds): $stdDevExecutionTime"
