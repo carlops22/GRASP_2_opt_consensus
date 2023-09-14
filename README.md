@@ -29,3 +29,11 @@ In case you want to run everything, the compiling and the dataset tests with the
 `chmod -x RunEverything.sh`
 
 `bash RunEverything.sh`
+
+# Plotting the results:
+
+To plot the results obtained from the GreedyRandomHeuristic_average_std script, you can use my python program:
+
+`python grafico_results_random_greedy.py`
+or
+`python3 grafico_results_random_greedy.py`
