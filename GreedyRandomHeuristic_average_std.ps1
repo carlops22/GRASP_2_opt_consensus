@@ -52,4 +52,4 @@ foreach ($alpha in $alphaValues) {
     }
     $results += $result
 }
-$results | Export-Csv -Path "results_random_greedy.csv" -Delimiter "`t" -NoTypeInformation
+$results | Export-Csv -Path "results_random_greedy.csv" -Delimiter "," -NoTypeInformation

@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('results_random_greedy.csv', sep='\t')
+df = pd.read_csv('results_random_greedy.csv')
 print(df.columns)
 alpha= df['Alpha']
 average_heuristic_cost = df['AverageHeuristicCost']
