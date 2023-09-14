@@ -10,6 +10,17 @@ If you want to just compile the Algorithms you can run the scripts listed below:
 
 `.\GreedyRandomHeuristic_compile.ps1`
 ## Linux (bash script):
+`chmod -x GreedyHeuristic_compile.sh`
+
 `bash GreedyHeuristic_compile.sh`
 
+`chmod -x GreedyRandomHeuristic_compile.sh`
+
 `bash GreedyRandomHeuristic_compile.sh`
+
+In case you want to run everything, the compiling and the dataset tests with the average and std results from the outputs wrote in a output file: results_random_greedy.csv
+
+## Linux (bash script):
+`chmod -x RunEverything.sh`
+
+`bash RunEverything.sh`
