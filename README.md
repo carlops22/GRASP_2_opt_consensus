@@ -5,6 +5,6 @@ A homework for 'Adaptive Systems', a greedy and random greedy implementation for
 
 If you want to just compile the Algorithms you can run the scripts listed below: 
 
-##Windows (Powershell script)
+## Windows (Powershell script)
 `.\GreedyHeuristic_compile.ps1`
 `.\GreedyRandomHeuristic_compile.ps1`
