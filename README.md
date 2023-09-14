@@ -1,5 +1,6 @@
 # greedy_2-optimality_consensus
 A homework for 'Adaptive Systems', a greedy and random greedy implementation for a solution to the 2-optimality consensus 
+The description of the algorithms and analysis of the results are in the pdf file (in spanish).
 
 # Method to run
 
