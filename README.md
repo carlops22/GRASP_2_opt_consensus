@@ -4,12 +4,12 @@ A homework for 'Adaptive Systems', a greedy and random greedy implementation for
 # Method to run
 
 If you want to just compile the Algorithms you can run the scripts listed below: 
-
-## Windows (Powershell script)
+## Compile programs:
+### Windows (Powershell script)
 `.\GreedyHeuristic_compile.ps1`
 
 `.\GreedyRandomHeuristic_compile.ps1`
-## Linux (bash script):
+### Linux (bash script):
 `chmod -x GreedyHeuristic_compile.sh`
 
 `bash GreedyHeuristic_compile.sh`
@@ -17,10 +17,15 @@ If you want to just compile the Algorithms you can run the scripts listed below:
 `chmod -x GreedyRandomHeuristic_compile.sh`
 
 `bash GreedyRandomHeuristic_compile.sh`
+## Average and standard deviation results scripts:
+### Windows (PowerShell):
+`.\GreedyHeuristic_average_std.ps1`
+
+`.\GreedyRandomHeuristic_average_std.ps1`
 
 In case you want to run everything, the compiling and the dataset tests with the average and std results from the outputs wrote in a output file: results_random_greedy.csv
 
-## Linux (bash script):
+### Linux (bash script):
 `chmod -x RunEverything.sh`
 
 `bash RunEverything.sh`
